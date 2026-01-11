@@ -1,52 +1,63 @@
-# Asymptora: Data Engineering P&D Lab
+# Asymptora: Java Software Engineering Lab
 
-### Building Production-Grade Data Platforms on Azure & AWS.
+### Architecting Scalable, Robust, and Cloud-Native Systems.
 
 ---
 
 ## Our Mission
 
-Asymptora is an advanced engineering lab dedicated to designing, implementing, and documenting enterprise-grade, cloud-native data solutions. Our core philosophy is that true expertise is demonstrated by building robust, scalable, and automated systems from first principles. We don't just use platforms; we engineer them.
+Asymptora is an engineering laboratory dedicated to the design and implementation of high-performance software solutions. We specialize in the modern Java ecosystem, adhering to strict architectural standards to deliver systems that are not only functional but maintainable, testable, and scalable.
 
-## Our Expertise: A Dual-Cloud Approach
+Our philosophy is grounded in Software Craftsmanship and Engineering First Principles. We do not simply implement frameworks; we architect distributed systems capable of handling enterprise-grade complexity.
 
-We operate on a multi-cloud model with dedicated, deep specialization, allowing us to architect the best solution for the problem, not just for a single cloud.
+## Technical Expertise
 
-* ### 🔷 **Azure Practice (Lead: Higor Cazuza)**
-    Focus on leveraging the full power of the Azure data ecosystem—from Data Lake Storage and Databricks to Azure Synapse—to build end-to-end analytical platforms, all provisioned and managed via Terraform.
+Our team possesses a unified, full-stack competency in Java Software Engineering, ensuring consistency and interchangeable expertise across all layers of development.
 
-* ### 🔶 **AWS Practice (Lead: Janaína Cazuza)**
-    Focus on architecting scalable and cost-efficient data solutions using the AWS stack, including services like S3, Glue, Lambda, and Redshift, automated through the AWS CDK and Terraform.
+* **Core Engineering & Architecture**
+  Deep specialization in Java (LTS versions), Spring Boot 3, and Domain-Driven Design (DDD). We implement Clean Architecture and Hexagonal patterns to decouple business logic from infrastructure, ensuring long-term project viability and testability.
 
-This dual-specialist model enables deep cross-training and ensures our solutions are built on a foundation of diverse, best-in-class architectural patterns.
+* **Cloud-Native & Distributed Systems**
+  Expertise in designing microservices and event-driven architectures using Apache Kafka and RabbitMQ. All solutions are containerized (Docker/Kubernetes) and designed for observability, resilience, and fault tolerance in cloud environments.
 
 ---
 
 ## Project Portfolio
 
-This section showcases our end-to-end projects. Each repository represents a complete solution to a complex data challenge.
+Each repository in this organization represents a production-grade implementation of complex software engineering challenges.
 
----
+### Distributed FinTech Core
+* **Lead Engineer:** [Higor Martins](https://github.com/martinshigor)
+* **Status:** In Progress
+* **Core Stack:** Java 21, Spring Boot 3, PostgreSQL, Docker, Hexagonal Architecture
+* **Objective:** Implementation of a high-concurrency payment processing engine. The system features idempotent transaction handling, optimistic locking strategies, and comprehensive integration testing using Testcontainers.
+* **[View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
 
-### 🔹 Project: Enterprise Data Lakehouse on Azure
-* **Lead Engineer:** [Higor Cazuza](https://github.com/higorcazuza81)
-* **Status:** `In Progress`
-* **Core Stack:** `Azure`, `Terraform`, `Databricks`, `Delta Lake`, `Airflow`, `Python`
-* **Objective:** To design and build a scalable Lakehouse architecture on Azure, capable of ingesting batch and streaming data, processing it through Bronze, Silver, and Gold layers, and serving it to analytical consumers.
-* **➡️ [View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
-
----
-
-### 🔸 Project: Real-Time Analytics Pipeline on AWS
-* **Lead Engineer:** [Janaína Cazuza](https://github.com/janainacazuza)
-* **Status:** `Planning`
-* **Core Stack:** `AWS`, `Terraform`, `Kinesis`, `Lambda`, `DynamoDB`, `Python`
-* **Objective:** To implement a serverless, real-time data ingestion and processing pipeline on AWS to power a live dashboard application.
-* **➡️ [View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
+### Real-Time Logistics Tracker
+* **Lead Engineer:** [Janaína Martins](https://github.com/janainacazuza)
+* **Status:** Planning
+* **Core Stack:** Java 21, Spring Cloud, Apache Kafka, Redis, PostgreSQL
+* **Objective:** Development of an event-driven microservices architecture for logistics tracking. Focuses on asynchronous communication patterns, eventual consistency, and circuit-breaker implementation for system resilience.
+* **[View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
 
 ---
 
 ## The Engineers
 
-* **Higor Cazuza** | [LinkedIn](https://www.linkedin.com/in/higorcazuza/) | [GitHub](https://github.com/higorcazuza81)
-* **Janaína Cazuza** | [LinkedIn](https://www.linkedin.com/in/janainacazuza/) | [GitHub](https://github.com/janainacazuza)
+* **Higor Martins** | [LinkedIn](https://www.linkedin.com/in/martinshigor/) | [GitHub](https://github.com/martinshigor)
+* **Janaína Martins** | [LinkedIn](https://www.linkedin.com/in/janainacazuza/) | [GitHub](https://github.com/janainacazuza)
+
+---
+
+### Technology Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | Java 21, SQL |
+| **Frameworks** | Spring Boot, Spring Cloud, Hibernate, Jakarta EE |
+| **Architecture** | Microservices, DDD, Hexagonal, Event-Driven |
+| **Infrastructure** | Docker, Kubernetes, GitHub Actions, Terraform |
+| **Databases** | PostgreSQL, Redis, MongoDB |
+
+---
+**Asymptora** — Engineering Excellence.
