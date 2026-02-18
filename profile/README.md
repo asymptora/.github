@@ -1,63 +1,95 @@
-# Asymptora: Java Software Engineering Lab
+<div align="center">
 
-### Architecting Scalable, Robust, and Cloud-Native Systems.
+```
+┌──────────────────────────────────────────────────────────────┐
+│  ASYMPTORA                                                   │
+│  Java Software Engineering   ::   Backend & Systems Design   │
+└──────────────────────────────────────────────────────────────┘
+```
+
+[![Java](https://img.shields.io/badge/Java_21|25-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org/)
+
+</div>
 
 ---
 
-## Our Mission
+## About
 
-Asymptora is an engineering laboratory dedicated to the design and implementation of high-performance software solutions. We specialize in the modern Java ecosystem, adhering to strict architectural standards to deliver systems that are not only functional but maintainable, testable, and scalable.
+Asymptora is a software engineering laboratory focused on the **Java platform** and backend systems design.
 
-Our philosophy is grounded in Software Craftsmanship and Engineering First Principles. We do not simply implement frameworks; we architect distributed systems capable of handling enterprise-grade complexity.
+Every project here is built from engineering fundamentals: algorithms, data structures, and deliberate architectural decisions. Our work is not about assembling frameworks; it is about understanding the problems deeply enough to make the right trade offs at every layer of the system.
 
-## Technical Expertise
+We follow the Java platform closely across versions 21 through 25, applying modern language features not as novelties, but as tools that improve correctness, expressiveness, and runtime efficiency.
 
-Our team possesses a unified, full-stack competency in Java Software Engineering, ensuring consistency and interchangeable expertise across all layers of development.
+> _"An asymptote approaches its limit through continuous refinement. So does good engineering."_
 
-* **Core Engineering & Architecture**
-  Deep specialization in Java (LTS versions), Spring Boot 3, and Domain-Driven Design (DDD). We implement Clean Architecture and Hexagonal patterns to decouple business logic from infrastructure, ensuring long-term project viability and testability.
+---
 
-* **Cloud-Native & Distributed Systems**
-  Expertise in designing microservices and event-driven architectures using Apache Kafka and RabbitMQ. All solutions are containerized (Docker/Kubernetes) and designed for observability, resilience, and fault tolerance in cloud environments.
+## Engineering Focus
+
+| Area | Detail |
+|---|---|
+| **Java Platform** | Java 21+, Virtual Threads (Project Loom), sealed types, records, pattern matching, Project Valhalla |
+| **Backend Systems** | Spring Boot 3.x, Spring Data JPA, transaction management, REST API design |
+| **Data & Persistence** | PostgreSQL, relational modeling, query optimization, transactional integrity |
+| **Algorithms & Structures** | Foundational data structures and algorithm design applied to real backend problems |
+| **Infrastructure** | Docker, Linux, Git |
 
 ---
 
 ## Project Portfolio
 
-Each repository in this organization represents a production-grade implementation of complex software engineering challenges.
-
 ### Distributed FinTech Core
-* **Lead Engineer:** [Higor Martins](https://github.com/martinshigor)
-* **Status:** In Progress
-* **Core Stack:** Java 21, Spring Boot 3, PostgreSQL, Docker, Hexagonal Architecture
-* **Objective:** Implementation of a high-concurrency payment processing engine. The system features idempotent transaction handling, optimistic locking strategies, and comprehensive integration testing using Testcontainers.
-* **[View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
 
-### Real-Time Logistics Tracker
-* **Lead Engineer:** [Janaína Martins](https://github.com/janainacazuza)
-* **Status:** Planning
-* **Core Stack:** Java 21, Spring Cloud, Apache Kafka, Redis, PostgreSQL
-* **Objective:** Development of an event-driven microservices architecture for logistics tracking. Focuses on asynchronous communication patterns, eventual consistency, and circuit-breaker implementation for system resilience.
-* **[View Project Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
+**Lead Engineer:** [Higor Cazuza](https://github.com/cazuzahigor)
+**Status:** In Progress
+**Stack:** Java 21, Spring Boot 3, PostgreSQL, Docker, Hexagonal Architecture
+
+Implementation of a high concurrency payment processing engine with idempotent transaction handling, optimistic locking strategies, and integration testing with Testcontainers.
+
+**[View Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
+
+---
+
+### Real Time Logistics Tracker
+
+**Lead Engineer:** [Janaína Cazuza](https://github.com/janainacazuza)
+**Status:** Planning
+**Stack:** Java 21, Spring Boot 3, Apache Kafka, PostgreSQL, Redis
+
+Event driven backend for logistics tracking, focused on asynchronous communication patterns, eventual consistency, and resilience under partial failure scenarios.
+
+**[View Repository](https://github.com/Asymptora/PROJECT-REPO-LINK-HERE)**
+
+---
+
+## Technology Radar
+
+```
+Adopted        →  Java 21+, Spring Boot 3, PostgreSQL, Docker, Git, Linux
+Experimenting  →  Java 25 preview features (Valhalla), Testcontainers, Structured Concurrency APIs
+Watching       →  GraalVM Native Image, Apache Kafka, OpenTelemetry for JVM
+```
 
 ---
 
 ## The Engineers
 
-* **Higor Martins** | [LinkedIn](https://www.linkedin.com/in/martinshigor/) | [GitHub](https://github.com/martinshigor)
-* **Janaína Martins** | [LinkedIn](https://www.linkedin.com/in/janainacazuza/) | [GitHub](https://github.com/janainacazuza)
+<div align="center">
+
+| | |
+|---|---|
+| **Higor Cazuza** | [LinkedIn](https://linkedin.com/in/higorcazuza) · [GitHub](https://github.com/cazuzahigor) |
+| **Janaína Cazuza** | [LinkedIn](https://linkedin.com/in/janainacazuza) · [GitHub](https://github.com/janainacazuza) |
+
+</div>
 
 ---
 
-### Technology Stack
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | Java 21, SQL |
-| **Frameworks** | Spring Boot, Spring Cloud, Hibernate, Jakarta EE |
-| **Architecture** | Microservices, DDD, Hexagonal, Event-Driven |
-| **Infrastructure** | Docker, Kubernetes, GitHub Actions, Terraform |
-| **Databases** | PostgreSQL, Redis, MongoDB |
-
----
-**Asymptora** — Engineering Excellence.
+<div align="center">
+<sub>Asymptora — Approaching excellence through continuous refinement.</sub>
+</div>
