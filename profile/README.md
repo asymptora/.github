@@ -16,9 +16,9 @@ Asymptora is built and maintained by [Higor Cazuza](https://github.com/higorcazu
 
 ## What's Here
 
+* **[infra](https://github.com/asymptora/infra)** — the homelab infrastructure described above, provisioned and documented publicly.
+* **[www](https://github.com/asymptora/www)** — the source for the site below.
 * **[asymptora.com](https://www.asymptora.com)** — currently under active development.
-
-Repositories are added to this organization as the work behind them reaches a stage worth showing.
 
 ---
 
